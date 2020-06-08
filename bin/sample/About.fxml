@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="500.0" maxWidth="500.0" prefHeight="272.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <Label layoutX="149.0" layoutY="25.0" text="About" textFill="#530e68">
+         <font>
+            <Font name="Georgia Bold Italic" size="64.0" />
+         </font>
+      </Label>
+      <Separator layoutX="64.0" layoutY="105.0" prefHeight="3.0" prefWidth="388.0" />
+      <Label layoutX="89.0" layoutY="134.0" text="Student Fees Record Management System v1.0.0" textFill="#b9a4a4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="151.0" layoutY="162.0" prefHeight="17.0" prefWidth="164.0" text="developed by  HALF_DOZEN" textFill="#b2a3a3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="149.0" layoutY="223.0" text="2020 (All rights reserved)" textFill="#c6baba">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="193.0" text="Contact: abhishekkr121707@gmail.com" textFill="#020080">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

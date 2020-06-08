@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1200.0" prefHeight="600.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <Button fx:id="loginlabel" layoutX="429.0" layoutY="329.0" mnemonicParsing="false" onAction="#Login" prefHeight="53.0" prefWidth="141.0" text="Login" textFill="#bf8cb6">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font></Button>
+      <TextField fx:id="txtUsername" layoutX="414.0" layoutY="226.0" prefHeight="31.0" prefWidth="172.0" promptText="Enter username or Email" />
+      <PasswordField fx:id="txtPassword" layoutX="414.0" layoutY="282.0" prefHeight="31.0" prefWidth="172.0" promptText="Enter password" />
+      <Separator layoutX="31.0" layoutY="180.0" prefHeight="21.0" prefWidth="938.0" />
+      <Label fx:id="userlabel" layoutX="339.0" layoutY="233.0" prefHeight="21.0" prefWidth="73.0" text="Username">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="passlabel" layoutX="339.0" layoutY="289.0" prefHeight="25.0" prefWidth="73.0" text="Password">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Label>
+      <Label fx:id="signin" alignment="CENTER" contentDisplay="CENTER" layoutX="379.0" layoutY="110.0" prefHeight="21.0" prefWidth="221.0" text="Sign In" textFill="#352368" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeid" alignment="CENTER" contentDisplay="BOTTOM" opacity="0.8" prefHeight="76.0" prefWidth="1000.0" text="Welcome to Student Fees Management System! Please sign-in to continue." textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bodoni MT Black" size="22.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="signuplabel" layoutX="433.0" layoutY="422.0" mnemonicParsing="false" onAction="#Signup" prefHeight="31.0" prefWidth="134.0" text="signup" textFill="#2e8278">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="402.0" layoutY="383.0" prefHeight="40.0" prefWidth="194.0" text="create your account" textFill="#401ed4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
