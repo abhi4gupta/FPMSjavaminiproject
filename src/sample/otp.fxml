@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800.0" maxWidth="600.0" prefHeight="250.0" prefWidth="250.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <TextField layoutX="51.0" layoutY="112.0" onAction="#verify" promptText="enter otp" />
+      <Label layoutX="51.0" layoutY="85.0" prefHeight="17.0" prefWidth="76.0" text="enter otp" />
+      <Button fx:id="oklabel" layoutX="51.0" layoutY="154.0" mnemonicParsing="false" onAction="#verify" text="ok" />
+      <Label fx:id="verified" layoutX="52.0" layoutY="185.0" prefHeight="38.0" prefWidth="118.0" textFill="#19d615">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
