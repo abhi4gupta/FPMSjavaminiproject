@@ -12,7 +12,6 @@ File -&gt; project structure-&gt;global libraries-&gt;add;
 4. Now we need my sql connector (jdbc-connector8.0) to connect with mysql
 server. (Must be latest)
 Which is also included in lib folder .
-Now your project structure page must be same as below.
-Ss are below.
 
-A small java project
+
+A Desktop Software Which helps user to store and update all records of students with their paid fees. They can also delete records of students who are no longer part of this school .
